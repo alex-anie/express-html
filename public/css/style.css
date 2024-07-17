@@ -1,0 +1,217 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2em;
+  height: 100%;
+  align-items: center;
+  margin: 0 2em;
+}
+
+header nav .navlinks ul {
+  display: flex;
+  gap: 2em;
+}
+
+header nav .navlinks li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* .logo */
+header nav .logo img {
+  width: 100px;
+  /* height: 100px; */
+}
+
+/* Sign up */
+header nav .signup {
+  display: flex;
+  gap: 1em;
+}
+
+header nav .signup .rewards {
+  font-size: 2em;
+  font-family: cursive;
+  color: #f25600;
+  /* margin-right: 1em; */
+}
+
+header nav .signup button {
+  background-color: transparent;
+  border: 1px solid #f25600;
+  padding: 0 1em;
+  margin: 1em 0;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100px;
+  color: #f25600;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+header nav .signup button:hover {
+  background-color: rgba(155, 145, 145, 0.1);
+}
+
+header nav .signup button:last-child {
+  border: 1px solid #8d8787;
+  cursor: not-allowed;
+  color: #8d8787;
+}
+
+/* Hero-section */
+.hero-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f25600;
+  background-image: url("/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.hero-section .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  padding: 0 2em;
+  margin-top: 4em;
+  margin-left: 8em;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgb(22, 22, 22);
+  width: 40%;
+  height: 22em;
+  border-radius: 20px;
+}
+
+.hero-section .card h1 {
+  font-size: 4em;
+  letter-spacing: 0.01px;
+}
+
+.hero-section .card p {
+  font-weight: bolder;
+}
+
+.hero-section .card a {
+  font-weight: lighter;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.hero-section .card button {
+  background-color: #f25600;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 1em;
+  cursor: pointer;
+}
+.hero-section .card button:hover {
+  background-color: #c94802;
+}
+
+.hero-section .card button:last-child {
+  margin: 0 1em;
+}
+
+/* Footer */
+footer {
+  width: 100vw;
+  background-color: #0e0e0e;
+}
+
+footer section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/* Footer Menu list */
+footer .menu-list {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2em;
+}
+
+footer .menu-list ul {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+footer .menu-list ul a {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Footer Copy right */
+footer .copy-right {
+  border-bottom: 1px solid #fff;
+  padding: 2em 0;
+}
+
+footer .copy-right p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+
+/* Social Media and Logo */
+footer .social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  height: 6em;
+}
+
+footer .social-media .logo img {
+  width: 10em;
+}
+
+footer .social-media .social-icons ul {
+  display: flex;
+  gap: 2em;
+}
+
+footer .social-media .social-icons ion-icon {
+  font-size: 1.5em;
+}
