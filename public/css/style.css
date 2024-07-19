@@ -24,6 +24,8 @@ header {
   background-color: white;
   height: 70px;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -284,7 +286,6 @@ footer .social-media .social-icons ion-icon {
   width: 100%;
   height: 30vh;
   overflow-x: hidden;
-
 }
 
 .food-occasion .carousel .marquee-text {
@@ -315,6 +316,35 @@ footer .social-media .social-icons ion-icon {
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(900));
+    transform: translateX(900);
   }
+}
+
+/* Order list */
+body.order {
+  background-color: rgb(235, 217, 187);
+}
+.order-list {
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+.order-list section .snacks-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  /* height: 100%; */
+  width: 70%;
+  margin: 6em auto;
+}
+
+.order-list section .snacks-container .card-order {
+  padding-bottom: 1em;
+  border-radius: 0.5em;
+  background-color: white;
+}
+
+.order-list section .snacks-container .card-order h2 {
+  text-align: center;
+  font-size: 18px;
 }

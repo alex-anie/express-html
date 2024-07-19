@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Snacks = require("./Snacks");
+// const Snacks = require("./Snacks");
 
 mongoose
   .connect("mongodb://localhost:27017/popeyes_foods", {
@@ -13,8 +13,11 @@ mongoose
     console.log("Error Connecting to mongodb", err);
   });
 
-async function run() {
-  const res = await Snacks.find();
-  console.log("dataset", res);
-}
-run();
+// async function run() {
+//   const res = await Snacks.find();
+//   // const data = await res.json();
+//   console.log("dataset", res);
+// }
+// run();
+
+module.exports = mongoose;

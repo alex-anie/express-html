@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon  server.js",
-    "db": "node model/db.js"
+    "db": "node model/db.js",
+    "posts": "node controller/posts.js"
   },
   "author": "Alex Anie",
   "license": "ISC",
