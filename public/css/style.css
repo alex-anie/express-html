@@ -155,6 +155,62 @@ header nav .signup button:last-child {
   margin: 0 1em;
 }
 
+/* Popoyes Offers */
+.popeyes-offers {
+  width: 100vw;
+  background-color: #fdefe8;
+}
+.popeyes-offers section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 3em;
+  width: 70%;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+.popeyes-offers section .card {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #cecbcb;
+}
+
+.popeyes-offers section .card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.popeyes-offers section .card div:last-child {
+  padding: 20px;
+}
+
+.popeyes-offers section .card div:last-child h2 {
+  font-size: 22px;
+}
+
+.popeyes-offers section .card div:last-child p {
+  font-size: 14px;
+  color: #161616;
+  padding: 1em 0;
+}
+
+.popeyes-offers section .card div:last-child .btn {
+  background-color: transparent;
+  border: 1px solid #f25600;
+  line-height: 30px;
+  height: 30px;
+  padding: 0 1em;
+  border-radius: 100px;
+  color: #f25600;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popeyes-offers section .card div:last-child .btn-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
 /* Footer */
 footer {
   width: 100vw;
